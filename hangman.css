@@ -1,0 +1,108 @@
+body {
+    background: rgb(102, 178, 255);
+    background-image: url(c.gif);
+    background-size: cover;
+}
+  
+main {
+    max-width: 610px;
+    margin: auto;
+}
+
+h1, h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline wavy hotpink;
+    text-align: center;
+    color: darkgrey;
+}
+
+.win {
+    color: white;
+    background-color: rgb(148, 245, 148);
+    text-align: center;
+}
+
+.loss {
+    color: white;
+    background-color: rgb(248, 113, 113);
+    text-align: center;
+}
+
+#word {
+    letter-spacing: 10px;
+    text-align: center;
+    font-size: 24pt;
+    color: rgb(164, 214, 26);
+    font-weight: bold;
+    font-family: "Courier New", Courier, monospace
+}
+
+#guesses {
+    text-align: center;
+    font-size: 16pt;
+    color: rgb(131, 240, 225);
+    font-weight: bold;
+    font-family: "Courier New", Courier, monospace
+}
+
+.guess {
+    padding: 10px;
+    display: inline-block;
+    border: 2px solid rgb(146, 126, 238);
+    border-radius: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+@media only screen and (min-device-width: 375px ) and (max-device-width: 667px) {
+    #guesses {
+    text-align: center;
+    font-size: 24pt;
+    color: rgb(255, 255, 153);
+    font-weight: bold;
+    font-family: "Courier New", Courier, monospace
+}
+
+.guess {
+    padding: 30px;
+    display: inline-block;
+    border: 2px solid rgb(238, 127, 127);
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+}
+
+#guessBox {
+    height: 60px;
+    border-radius: 10px;
+    padding-top: 5px;
+    font-size: 18pt;
+    width: 200px;
+    padding-left: 10px;
+}
+
+/* Buttons */
+.button {
+display: inline-block;
+padding: 15px 25px;
+font-size: 24px;
+cursor: pointer;
+text-align: center;
+text-decoration: none;
+outline: none;
+color: #666;
+background-color: rgb(101, 173, 240);
+border: none;
+border-radius: 15px;
+box-shadow: 0 9px rgba(154, 212, 235, 0.966);
+}
+
+.button:hover {background-color: rgb(224, 224, 139)}
+
+.button:active {
+background-color: rgb(213, 224, 243);
+box-shadow: 0 5px #666;
+transform: translateY(4px);
+}
+
